@@ -63,7 +63,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
       propertyPath: m_LocalPosition.y
@@ -71,7 +71,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 23.75
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
       propertyPath: m_LocalRotation.w
@@ -119,6 +119,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1616712370669172667}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3814990306368945746}
   m_SourcePrefab: {fileID: 100100000, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
 --- !u!1 &7188390641053143324 stripped
 GameObject:
@@ -147,6 +150,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5589424244161457871, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
+--- !u!114 &3814990306368945746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188390641053143324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30dc4cd01f248414ba045e56e77c9116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7532722960298625958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4e4116b95cc8540dda18d115f8d36c06, type: 3}
