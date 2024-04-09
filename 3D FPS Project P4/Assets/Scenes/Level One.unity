@@ -10891,6 +10891,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetText: {fileID: 24739862}
+  youWonScene: You Won
+  youLostScene: You Lost
 --- !u!4 &894756214
 Transform:
   m_ObjectHideFlags: 0
@@ -10918,7 +10920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22dc8532cebc74eb6b50bb176b6bd2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 20
+  timeRemaining: 120
   timerText: {fileID: 444346148}
 --- !u!114 &894756216
 MonoBehaviour:
